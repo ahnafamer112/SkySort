@@ -73,7 +73,7 @@ _Example confusion matrix and feature importance plots will go here once the mod
 ```bash 
 git clone https://github.com/ahnafamer112/SkySort.git
 cd SkySort
-
+```
 2. python3 -m venv venv
 
 3. source venv/bin/activate
@@ -90,7 +90,6 @@ Astronomy & Data Science Enthusiast 🌠
 GitHub: [https://github.com/ahnafamer112](https://github.com/ahnafamer112)
 
 ---
-
 
 ## 📜 License
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.

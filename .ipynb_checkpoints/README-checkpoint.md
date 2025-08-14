@@ -17,41 +17,22 @@ The goal is to demonstrate how modern data analysis and ML techniques can be app
 
 ---
 
-```markdown
 ## 📂 Project Structure
-```text
 SkySort/
-├── data/             # Raw and processed datasets (.csv, .fits, etc.)
+│
+├── data/
 │   └── .gitkeep
-├── notebooks/        # Jupyter notebooks for analysis
+├── notebooks/
 │   └── .gitkeep
-├── src/              # Python source code (data loading, preprocessing, training)
+├── src/
 │   └── .gitkeep
-├── images/           # Plots, confusion matrices, and other visualizations
+├── images/
 │   └── .gitkeep
-├── requirements.txt  # Python dependencies
-├── LICENSE           # License file
-├── .gitignore        # Ignored files/folders
-└── README.md         # This file
+├── requirements.txt
+├── LICENSE
+├── .gitignore
+└── README.md
 
-
-
----
-
-## 📊 Dataset
-**Source:** Sloan Digital Sky Survey (SDSS) — DR16 or later  
-**Access:** [https://skyserver.sdss.org/](https://skyserver.sdss.org/)  
-**Sample size:** ~100k objects (balanced among stars, quasars, galaxies)  
-
----
-
-## 🛠 Technologies Used
-- **Python 3.9+**  
-- **Jupyter Lab** for analysis  
-- **NumPy, Pandas** for data processing  
-- **Matplotlib, Seaborn** for plotting  
-- **Scikit-learn** for ML models  
-- **Astropy** for astronomy utilities  
 
 ---
 
@@ -76,24 +57,39 @@ GitHub: [https://github.com/ahnafamer112](https://github.com/ahnafamer112)
 
 ---
 
+## 📊 Dataset
+**Source:** Sloan Digital Sky Survey (SDSS) — DR16 or later  
+**Access:** [https://skyserver.sdss.org/](https://skyserver.sdss.org/)  
+**Sample size:** ~100k objects (balanced among stars, quasars, galaxies)  
+
+---
+
+## 🛠 Technologies Used
+- **Python 3.9+**  
+- **Jupyter Lab** for analysis  
+- **NumPy, Pandas** for data processing  
+- **Matplotlib, Seaborn** for plotting  
+- **Scikit-learn** for ML models  
+- **Astropy** for astronomy utilities  
+
+---
+
 ## 📈 Example Results
 _Example confusion matrix and feature importance plots will go here once the model is trained._  
 ![Example Plot](images/confusion_matrix.png)  
 
 ---
 
-```markdown
 ## 📌 Installation & Usage
 1. **Clone the repository**:
-```bash
+
 git clone https://github.com/ahnafamer112/SkySort.git
 cd SkySort
 
-2. **Set up virtual environment**:
-```bash
-python3 -m venv venv
-source venv/bin/activate
+2. python3 -m venv venv
 
-3. pip install -r requirements.txt
+3. source venv/bin/activate
 
-4. jupyter lab
+4. pip install -r requirements.txt
+
+5. jupyter lab

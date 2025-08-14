@@ -18,20 +18,21 @@ The goal is to demonstrate how modern data analysis and ML techniques can be app
 ---
 
 ## 📂 Project Structure
+```text
 SkySort/
-│
-├── data/
+├── data/             # Raw and processed datasets (.csv, .fits, etc.)
 │   └── .gitkeep
-├── notebooks/
+├── notebooks/        # Jupyter notebooks for analysis
 │   └── .gitkeep
-├── src/
+├── src/              # Python source code (data loading, preprocessing, training)
 │   └── .gitkeep
-├── images/
+├── images/           # Plots, confusion matrices, and other visualizations
 │   └── .gitkeep
-├── requirements.txt
-├── LICENSE
-├── .gitignore
-└── README.md
+├── requirements.txt  # Python dependencies
+├── LICENSE           # License file
+├── .gitignore        # Ignored files/folders
+└── README.md         # This file
+```
 
 
 ---
@@ -74,13 +75,19 @@ _Example confusion matrix and feature importance plots will go here once the mod
 git clone https://github.com/ahnafamer112/SkySort.git
 cd SkySort
 ```
-2. python3 -m venv venv
-
-3. source venv/bin/activate
-
-4. pip install -r requirements.txt
-
-5. jupyter lab
+2. **Set up virtual environment**:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+3. **Install dependencies**:
+```bash
+pip install -r requirements.txt
+```
+4. **Launch Jupyter Lab**:
+```bash
+jupyter lab
+```
 
 ---
 

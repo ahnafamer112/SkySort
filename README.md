@@ -18,20 +18,21 @@ The goal is to demonstrate how modern data analysis and ML techniques can be app
 ---
 
 ## 📂 Project Structure
+```text
 SkySort/
-│
-├── data/
+├── data/             # Raw and processed datasets (.csv, .fits, etc.)
 │   └── .gitkeep
-├── notebooks/
+├── notebooks/        # Jupyter notebooks for analysis
 │   └── .gitkeep
-├── src/
+├── src/              # Python source code (data loading, preprocessing, training)
 │   └── .gitkeep
-├── images/
+├── images/           # Plots, confusion matrices, and other visualizations
 │   └── .gitkeep
-├── requirements.txt
-├── LICENSE
-├── .gitignore
-└── README.md
+├── requirements.txt  # Python dependencies
+├── LICENSE           # License file
+├── .gitignore        # Ignored files/folders
+└── README.md         # This file```
+
 
 
 ---
@@ -53,6 +54,31 @@ SkySort/
 
 ---
 
+
+### **2️⃣ Add the Roadmap section**
+
+```markdown
+## 📅 Roadmap
+- [ ] Acquire SDSS dataset and preprocess
+- [ ] Train initial models (Logistic Regression, Random Forest)
+- [ ] Tune hyperparameters
+- [ ] Add neural network classifier
+- [ ] Upload example visualizations and final results
+
+---
+
+## 📜 License
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## ✨ Author
+**Ahnaf Amer Adit**  
+Astronomy & Data Science Enthusiast 🌠  
+GitHub: [https://github.com/ahnafamer112](https://github.com/ahnafamer112)
+
+---
+
 ## 📈 Example Results
 _Example confusion matrix and feature importance plots will go here once the model is trained._  
 ![Example Plot](images/confusion_matrix.png)  
@@ -62,5 +88,14 @@ _Example confusion matrix and feature importance plots will go here once the mod
 ## 📌 Installation & Usage
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/YOUR_USERNAME/SkySort.git
+git clone https://github.com/ahnafamer112/SkySort.git
 cd SkySort
+
+2. **Set up virtual environment**:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+
+3. pip install -r requirements.txt
+
+4. jupyter lab

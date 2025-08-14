@@ -31,7 +31,7 @@ SkySort/
 ├── requirements.txt  # Python dependencies
 ├── LICENSE           # License file
 ├── .gitignore        # Ignored files/folders
-└── README.md         # This file
+└── README.md         # This file```
 
 
 
@@ -81,6 +81,7 @@ _Example confusion matrix and feature importance plots will go here once the mod
 
 ---
 
+```markdown
 ## 📌 Installation & Usage
 1. **Clone the repository**:
 ```bash

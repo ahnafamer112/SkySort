@@ -31,7 +31,7 @@ SkySort/
 ├── requirements.txt  # Python dependencies
 ├── LICENSE           # License file
 ├── .gitignore        # Ignored files/folders
-└── README.md         # This file```
+└── README.md         # This file
 
 
 
@@ -54,8 +54,6 @@ SkySort/
 
 ---
 
-
-### **2️⃣ Add the Roadmap section**
 
 ```markdown
 ## 📅 Roadmap

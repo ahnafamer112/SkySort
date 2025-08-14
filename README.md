@@ -17,6 +17,7 @@ The goal is to demonstrate how modern data analysis and ML techniques can be app
 
 ---
 
+```markdown
 ## 📂 Project Structure
 ```text
 SkySort/
@@ -31,7 +32,7 @@ SkySort/
 ├── requirements.txt  # Python dependencies
 ├── LICENSE           # License file
 ├── .gitignore        # Ignored files/folders
-└── README.md         # This file```
+└── README.md         # This file
 
 
 

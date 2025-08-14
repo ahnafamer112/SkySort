@@ -54,8 +54,6 @@ SkySort/
 
 ---
 
-
-```markdown
 ## 📅 Roadmap
 - [ ] Acquire SDSS dataset and preprocess
 - [ ] Train initial models (Logistic Regression, Random Forest)

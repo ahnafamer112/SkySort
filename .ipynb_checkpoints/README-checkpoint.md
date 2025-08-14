@@ -45,18 +45,6 @@ SkySort/
 
 ---
 
-## 📜 License
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-## ✨ Author
-**Ahnaf Amer Adit**  
-Astronomy & Data Science Enthusiast 🌠  
-GitHub: [https://github.com/ahnafamer112](https://github.com/ahnafamer112)
-
----
-
 ## 📊 Dataset
 **Source:** Sloan Digital Sky Survey (SDSS) — DR16 or later  
 **Access:** [https://skyserver.sdss.org/](https://skyserver.sdss.org/)  
@@ -82,7 +70,7 @@ _Example confusion matrix and feature importance plots will go here once the mod
 
 ## 📌 Installation & Usage
 1. **Clone the repository**:
-
+```bash 
 git clone https://github.com/ahnafamer112/SkySort.git
 cd SkySort
 
@@ -93,3 +81,18 @@ cd SkySort
 4. pip install -r requirements.txt
 
 5. jupyter lab
+
+---
+
+## ✨ Author
+**Ahnaf Amer Adit**  
+Astronomy & Data Science Enthusiast 🌠  
+GitHub: [https://github.com/ahnafamer112](https://github.com/ahnafamer112)
+
+---
+
+
+## 📜 License
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
